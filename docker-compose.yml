@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+
+  worker:
+    build: .
+    command: celery -A app.workers.tasks worker -l info
+    depends_on:
+      - redis
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: ir
+      POSTGRES_USER: ir
+      POSTGRES_PASSWORD: ir
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
