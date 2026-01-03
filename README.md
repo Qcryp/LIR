@@ -324,13 +324,6 @@ Wazuh → IR Orchestrator → Response Systems
   "status": "contained"
 }
 ```
-
----
-
-## 🧠 Interview Positioning
-
-> “I built a lightweight Incident Response Orchestration platform that consumes SIEM alerts from Wazuh, applies risk-based prioritization, and enables rapid containment with full auditability.”
-
 ---
 
 ## 🚀 Roadmap
@@ -343,19 +336,3 @@ Wazuh → IR Orchestrator → Response Systems
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is built for **educational, lab, and portfolio purposes**.
-Response actions are mocked or lab-only unless explicitly integrated with production systems.
-
-```
-
----
-
-Kalau kamu mau, next aku bisa:
-- ✨ **rapihin jadi open-source ready (badge, license, contribution guide)**  
-- 🎯 **bikin versi “README recruiter-friendly” (lebih singkat)**  
-- 🧠 **bantu tulis STAR answer buat interview dari project ini**
-
-Tinggal bilang mau lanjut ke mana.
-```
